@@ -26,8 +26,7 @@ public class ControladorDeLeveis : MonoBehaviour {
     void Update()
     {
         if (Block.levelSuccess) {
-            print("LoadBlocks IF");
-            Ball.velocidade = Ball.velocidade + 10.0f;
+            Ball.velocidade = Ball.velocidade + 40.0f;
             LoadBlocks();
         }
 	}

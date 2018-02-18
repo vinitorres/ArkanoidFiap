@@ -15,7 +15,7 @@ public class CurrentLevel : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Block.levelSuccess) {
-            levelLabel.text = "Level: "+ControladorDeLeveis.level;
+            levelLabel.text = "Level:"+ControladorDeLeveis.level;
         }
 	}
 }
